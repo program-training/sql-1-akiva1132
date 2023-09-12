@@ -46,7 +46,10 @@ WHERE Discontinued = 1
 FROM customers
 WHERE contact_title IN ('Owner','CEO');
 
-13.
+13.SELECT  *FROM Products
+WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
+
+
 14.
 15.
 16.

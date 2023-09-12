@@ -24,7 +24,10 @@ ORDER BY  freight LIMIT 5
 FROM Employees
 WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 
-7.
+7.SELECT *
+FROM products
+WHERE units_in_stock > 0;
+
 8.
 9.
 10.

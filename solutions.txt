@@ -28,7 +28,10 @@ WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 FROM products
 WHERE units_in_stock > 0;
 
-8.
+8.SELECT AVG(unit_price)
+FROM Products;
+
+
 9.
 10.
 11.

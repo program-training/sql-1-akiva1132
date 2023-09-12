@@ -1,6 +1,8 @@
 את הפתרונות שלכם תכתבו כאן, אחרי כל שאלה, תעשו קומיט.
 
-1.
+1. SELECT Category_ID, Product_Name, Product_ID
+FROM Products
+WHERE unit_price >=50;
 2.
 3.
 4.

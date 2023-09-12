@@ -50,15 +50,18 @@ SELECT COUNT(*) FROM orders WHERE EXTRACT(YEAR FROM order_date) > 1997
 FROM customers
 WHERE contact_title IN ('Owner','CEO');
 
-14.SELECT  *FROM Products
+14.SELECT  * FROM Products
 WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
 
 
 15.SELECT
-AVG('2023' -  EXTRACT(YEAR FROM birth_date))
+AVG(EXTRACT(YEAR FROM current_date) -  EXTRACT(YEAR FROM birth_date))
 FROM employees
 
-16.
+16.SELECT *
+FROM customers
+WHERE phone LIKE '
+
 17.
 18.
 19.

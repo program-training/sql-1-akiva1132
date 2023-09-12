@@ -8,7 +8,10 @@ WHERE unit_price >=50;
 FROM Customers
 WHERE Country = 'Germany'
 
-3.
+3.SELECT *
+FROM Orders
+WHERE Customer_ID = 'VINET'
+
 4.
 5.
 6.

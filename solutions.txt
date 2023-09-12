@@ -19,7 +19,11 @@ GROUP BY  customer_id;
 5.SELECT * 
 FROM Orders
 ORDER BY  freight LIMIT 5
-6. 
+
+6. SELECT *
+FROM Employees
+WHERE EXTRACT(YEAR FROM birth_date) < 1960;
+
 7.
 8.
 9.

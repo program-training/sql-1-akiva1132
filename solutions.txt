@@ -73,7 +73,10 @@ FROM Products;
 FROM orders
 WHERE order_date = '19-05-97'
 
-20.
+20.SELECT  product_name, units_in_stock
+FROM products
+
+
 21.
 22.
 23.

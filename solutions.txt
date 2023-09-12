@@ -76,7 +76,9 @@ WHERE order_date = '19-05-97'
 20.SELECT  product_name, units_in_stock
 FROM products
 
+21.SELECT  product_id ,product_name, units_in_stock, unit_price
+FROM products
+WHERE unit_price > (SELECT AVG(unit_price)FROM products) 
 
-21.
 22.
 23.

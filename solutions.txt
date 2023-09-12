@@ -12,7 +12,10 @@ WHERE Country = 'Germany'
 FROM Orders
 WHERE Customer_ID = 'VINET'
 
-4.
+4.SELECT SUM(freight) AS TotalOrders, customer_id
+FROM Orders
+GROUP BY  customer_id;
+
 5.
 6.
 7.

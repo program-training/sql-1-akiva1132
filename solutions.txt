@@ -35,7 +35,9 @@ FROM Products;
 FROM Products
 WHERE product_id = 3
 
-10.
+10.SELECT  COUNT(DISTINCT category_id) 
+FROM Products
+
 11.
 12.
 13.

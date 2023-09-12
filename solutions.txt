@@ -38,7 +38,10 @@ WHERE product_id = 3
 10.SELECT  COUNT(DISTINCT category_id) 
 FROM Products
 
-11.
+11.SELECT  *
+FROM Products
+WHERE Discontinued = 1
+
 12.
 13.
 14.

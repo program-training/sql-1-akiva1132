@@ -42,7 +42,10 @@ FROM Products
 FROM Products
 WHERE Discontinued = 1
 
-12.
+12.SELECT  *
+FROM customers
+WHERE contact_title IN ('Owner','CEO');
+
 13.
 14.
 15.

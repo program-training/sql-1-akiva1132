@@ -31,8 +31,10 @@ WHERE units_in_stock > 0;
 8.SELECT AVG(unit_price)
 FROM Products;
 
+9.SELECT unit_price * units_on_order
+FROM Products
+WHERE product_id = 3
 
-9.
 10.
 11.
 12.

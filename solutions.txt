@@ -42,16 +42,22 @@ FROM Products
 FROM Products
 WHERE Discontinued = 1
 
-12.SELECT  *
+
+12.
+SELECT COUNT(*) FROM orders WHERE EXTRACT(YEAR FROM order_date) > 1997
+
+13.SELECT  *
 FROM customers
 WHERE contact_title IN ('Owner','CEO');
 
-13.SELECT  *FROM Products
+14.SELECT  *FROM Products
 WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
 
 
-14.
-15.
+15.SELECT
+AVG('2023' -  EXTRACT(YEAR FROM birth_date))
+FROM employees
+
 16.
 17.
 18.
@@ -59,3 +65,4 @@ WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
 20.
 21.
 22.
+23.
